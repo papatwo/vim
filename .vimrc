@@ -117,10 +117,26 @@ let g:hardtime_default_on = 1
 let g:list_of_normal_keys = [
       \ 'h', 'j', 'k', 'l', '-', '+',
       \ '<UP>', '<DOWN>', '<LEFT>', '<RIGHT>',
-      \ 'e', 'w', 'b'
+      \ 'e', 'w', 'b',
+      \ ]
+" don't smash <Backspace>, try <C-w>
+let g:list_of_insert_keys = [
+      \ '<UP>', '<DOWN>', '<LEFT>', '<RIGHT>',
+      \ '<BACKSPACE>',
       \ ]
 let g:hardtime_ignore_quickfix = 1
 let g:hardtime_maxcount = 3
+
+" go one step further: completely disable arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+" use <C-t> / <C-d> to (un)indent instead!
+" If you truly want a tab, press <C-v><Tab>. Note that this won't be expanded
+" to spaces even with 'expandtab' on
+inoremap <Tab> <Nop>
 
 " ------------------------------------------------------------
 " quick-scope
