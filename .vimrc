@@ -20,6 +20,8 @@ if !empty(glob(b:vundlepath . 'Vundle.vim'))
 
   " plugins
 
+  Plugin 'takac/vim-hardtime'  " get rid of bad habbits
+
   call vundle#end()
 
 endif  " if has Vundle
@@ -96,6 +98,19 @@ nnoremap Y y$
 " ========================================================================= }}}
 " plugin configs
 " ========================================================================= {{{
+
+" ------------------------------------------------------------
+" hardtime
+" ------------------------------------------------------------
+
+let g:hardtime_default_on = 1
+let g:list_of_normal_keys = [
+      \ 'h', 'j', 'k', 'l', '-', '+',
+      \ '<UP>', '<DOWN>', '<LEFT>', '<RIGHT>',
+      \ 'e', 'w', 'b'
+      \ ]
+let g:hardtime_ignore_quickfix = 1
+let g:hardtime_maxcount = 3
 
 " }}}
 
