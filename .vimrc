@@ -21,6 +21,7 @@ if !empty(glob(b:vundlepath . 'Vundle.vim'))
   " plugins
 
   Plugin 'takac/vim-hardtime'  " get rid of bad habbits
+  Plugin 'unblevable/quick-scope'  " highlight cues for `f` and `t`
 
   call vundle#end()
 
@@ -111,6 +112,12 @@ let g:list_of_normal_keys = [
       \ ]
 let g:hardtime_ignore_quickfix = 1
 let g:hardtime_maxcount = 3
+
+" ------------------------------------------------------------
+" quick-scope
+" ------------------------------------------------------------
+
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
 " }}}
 
