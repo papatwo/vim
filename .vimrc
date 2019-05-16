@@ -85,6 +85,8 @@ inoremap jj <Esc>
 
 " `^` and `$` are too far away
 " mnemonic: go left and go right
+noremap gh ^
+noremap gl $
 
 " change vimrc
 nnoremap crc :tabnew ~/.vimrc<CR>
