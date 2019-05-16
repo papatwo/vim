@@ -61,6 +61,9 @@ set wildignorecase fileignorecase
 " enable syntax highlighting
 syntax on
 
+" colour scheme
+colorscheme murphy
+
 " file type detection
 filetype on
 filetype plugin on
@@ -72,17 +75,16 @@ set autoindent smartindent
 " format text so lines do not exceed 80 columns
 set textwidth=79
 
+
 " ========================================================================= }}}
 " custom key mappings
 " ========================================================================= {{{
 
 " <Esc> is too far away, tap `kj` instead
-inoremap kj <Esc>
+inoremap jj <Esc>
 
 " `^` and `$` are too far away
 " mnemonic: go left and go right
-noremap gh ^
-noremap gl $
 
 " change vimrc
 nnoremap crc :tabnew ~/.vimrc<CR>
