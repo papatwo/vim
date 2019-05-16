@@ -2,6 +2,14 @@
 
 ## Installation
 
+To use the vimrc:
+
+```sh
+git clone https://github.com/papatwo/vimconfig.git && ln -srb vimconfig/.vimrc ~
+```
+
+(The original `~/.vimrc` will be backed up to e.g. `~/.vimrc~`.)
+
 To install [Vundle](https://github.com/VundleVim/Vundle.vim):
 
 ```sh
