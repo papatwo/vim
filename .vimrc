@@ -1,1 +1,0 @@
-/Users/akaishuushan/vimconfig//.vimrc
