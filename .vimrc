@@ -1,4 +1,30 @@
 " ========================================================================= }}}
+" Vundle - plugin management
+" ========================================================================= {{{
+" *** Keep this at the top ***
+" To install:
+" $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/Vundle.vim/
+
+let b:vundlepath = '~/.vim/bundle/'
+if !empty(glob(b:vundlepath . 'Vundle.vim'))
+
+  " required, turn on later if need be
+  set nocompatible
+  filetype off
+
+  exec 'set runtimepath+=' . b:vundlepath . 'Vundle.vim'
+  call vundle#begin(b:vundlepath)
+
+  " required
+  Plugin 'VundleVim/Vundle.vim'
+
+  " plugins
+
+  call vundle#end()
+
+endif  " if has Vundle
+
+" ========================================================================= }}}
 " core setting
 " ========================================================================= {{{
 
@@ -66,6 +92,10 @@ nmap <F11> :nohls<CR>
 
 " make `Y` behave like `D`: yank to end of line
 nnoremap Y y$
+
+" ========================================================================= }}}
+" plugin configs
+" ========================================================================= {{{
 
 " }}}
 
