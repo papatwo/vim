@@ -41,7 +41,7 @@ filetype indent on
 set autoindent smartindent
 
 " format text so lines do not exceed 80 columns
-set textwith=79
+set textwidth=79
 
 " ========================================================================= }}}
 " custom key mappings
