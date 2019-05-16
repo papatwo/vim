@@ -23,12 +23,7 @@ set showmatch
 " do not generate backup/swap files
 set nobackup noswapfile
 " use undo history
-if g:iswindows
-  let $TMP = $VIM . '\tmp'
-else
-  let $TMP = '/tmp/'
-endif
-set undofile undodir=$TMP
+set undofile undodir=/tmp/
 
 " enable case-insensitive completion in command-line menu
 set wildmenu
