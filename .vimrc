@@ -121,4 +121,4 @@ let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
 " }}}
 
-" vim:tw=0:fdm=marker:
+" vim:nowrap:tw=0:fdm=marker:
