@@ -20,7 +20,7 @@ if !empty(glob(b:vundlepath . 'Vundle.vim'))
 
   " plugins
 
-  Plugin 'takac/vim-hardtime'  " get rid of bad habbits
+  Plugin 'takac/vim-hardtime'  " get rid of bad habits
   Plugin 'unblevable/quick-scope'  " highlight cues for `f` and `t`
 
   call vundle#end()
@@ -75,6 +75,11 @@ set autoindent smartindent
 " format text so lines do not exceed 80 columns
 set textwidth=79
 
+" spell check languages
+" NOTE "cjk" does not check spelling for CJK languages. Instead it inhibits
+" spell checks for those languages. Otherwise all CJK characters will be marked
+" badly spelled because spell checking for CJK languages is not supported.
+set spelllang=en_GB,cjk
 
 " ========================================================================= }}}
 " custom key mappings
