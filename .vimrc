@@ -18,7 +18,7 @@ if !empty(glob(b:vundlepath . 'Vundle.vim'))
   " required
   Plugin 'VundleVim/Vundle.vim'
 
-  " plugins
+" plugins
 
   Plugin 'takac/vim-hardtime'  " get rid of bad habits
   Plugin 'unblevable/quick-scope'  " highlight cues for `f` and `t`
@@ -100,7 +100,7 @@ nnoremap crc :tabnew ~/.vimrc<CR>
 nnoremap cu :source ~/.vimrc<CR>
 
 " turn off search highlighting
-nmap <F11> :nohls<CR>
+nmap s :nohls<CR>
 
 " make `Y` behave like `D`: yank to end of line
 nnoremap Y y$
