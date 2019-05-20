@@ -39,6 +39,9 @@ set number
 " show line number relative to cursor
 set relativenumber
 
+" set modeline if exceeds fold up
+set modeline modelines=5
+
 " always highlight search results
 set hls
 " highlight as typing
