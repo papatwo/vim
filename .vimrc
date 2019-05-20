@@ -18,7 +18,7 @@ if !empty(glob(b:vundlepath . 'Vundle.vim'))
   " required
   Plugin 'VundleVim/Vundle.vim'
 
-" plugins
+  " plugins
 
   Plugin 'takac/vim-hardtime'  " get rid of bad habits
   Plugin 'unblevable/quick-scope'  " highlight cues for `f` and `t`
