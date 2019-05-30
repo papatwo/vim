@@ -39,8 +39,8 @@ set number
 " show line number relative to cursor
 set relativenumber
 
-" set modeline if exceeds fold up
-set modeline modelines=5
+" enable vim modeline parsing (in-file vim settings)
+set modeline modelines&
 
 " always highlight search results
 set hls
