@@ -22,6 +22,7 @@ if !empty(glob(b:vundlepath . 'Vundle.vim'))
 
   Plugin 'takac/vim-hardtime'  " get rid of bad habits
   Plugin 'unblevable/quick-scope'  " highlight cues for `f` and `t`
+  Plugin 'tpope/vim-commentary' " easy comment
 
   call vundle#end()
 
@@ -83,6 +84,8 @@ set textwidth=79
 " spell checks for those languages. Otherwise all CJK characters will be marked
 " badly spelled because spell checking for CJK languages is not supported.
 set spelllang=en_GB,cjk
+
+" share system clipboard
 
 " ========================================================================= }}}
 " custom key mappings
