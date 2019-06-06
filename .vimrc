@@ -94,6 +94,9 @@ if &modifiable
   set fileencoding=utf-8
 endif
 
+" display whitespaces
+set list listchars=tab:\|\ ,trail:.,extends:>,precedes:<
+
 " ========================================================================= }}}
 " custom key mappings
 " ========================================================================= {{{
