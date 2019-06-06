@@ -85,7 +85,6 @@ set textwidth=79
 " badly spelled because spell checking for CJK languages is not supported.
 set spelllang=en_GB,cjk
 
-" share system clipboard
 
 " ========================================================================= }}}
 " custom key mappings
