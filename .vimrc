@@ -89,7 +89,10 @@ set spelllang=en_GB,cjk
 set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr
-set fileencoding=utf-8
+" text encoding used when writing files
+if &modifiable
+  set fileencoding=utf-8
+endif
 
 " ========================================================================= }}}
 " custom key mappings
