@@ -85,6 +85,11 @@ set textwidth=79
 " badly spelled because spell checking for CJK languages is not supported.
 set spelllang=en_GB,cjk
 
+" set utf-8 encoding
+set encoding=utf-8
+set termencoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr
+set fileencoding=utf-8
 
 " ========================================================================= }}}
 " custom key mappings
