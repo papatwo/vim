@@ -23,7 +23,8 @@ if !empty(glob(b:vundlepath . 'Vundle.vim'))
   Plugin 'takac/vim-hardtime'  " get rid of bad habits
   Plugin 'unblevable/quick-scope'  " highlight cues for `f` and `t`
   Plugin 'tpope/vim-commentary' " easy comment
-
+  Plugin 'cohama/lexima.vim' " auto close parentheses
+  
   call vundle#end()
 
 endif  " if has Vundle
